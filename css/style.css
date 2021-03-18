@@ -1,0 +1,58 @@
+body {
+    font-family: 'Syne Mono', monospace;
+    background: url("../images/bricks.jpeg") no-repeat center/cover;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+p {
+    max-width: 600px;
+    padding: 0 25px;
+}
+
+button {
+    font-family: inherit;
+}
+
+.guess__bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.guess {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: rgba(0,0,0, 0.8);
+    color: wheat;
+    height: 400px;
+}
+
+.guesses {
+    margin: 20px;
+}
+
+.lowOrHigh {
+    margin: 10px;
+}
+
+.lastResult {
+    max-width: 300px;
+    margin: 0 auto;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
